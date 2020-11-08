@@ -1,8 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
 body {
   background-color: black;
 }
 
 .container {
   background-color: black !important;
+}
+
+.navbar {
+  height: 200px;
+  background-color: black !important;
+  color: whitesmoke;
+}
+
+.navbar-brand img {
+  height: 200px;
+  width: 200px;
+}
+
+.dropdown-menu {
+  background-color: black !important;
+}
+
+.footer {
+  background-color: black !important;
+}
+
+.card, .card-text {
+  background-color: black;
 }
 /*# sourceMappingURL=style.css.map */
