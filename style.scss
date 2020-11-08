@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap');
 
 body {
     background-color: black;
@@ -25,9 +25,20 @@ body {
 }
 
 .footer {
+    font-size: 12px;
     background-color: black !important;
 }
 
-.card, .card-text {
+.card,
+.card-text {
     background-color: black;
+}
+
+h6 {
+    font-family: 'PT Mono ', monospace;
+    font-size: 14px;
+}
+
+p {
+    font-family: 'Markazi Text', serif;
 }
