@@ -1,6 +1,10 @@
 @import url("https://fonts.googleapis.com/css2?family=PT+Mono&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@500&display=swap');
 
+$desktop: 1025px;
+$table: 1024px;
+$mobile: 767px; 
+
 body {
     background-color: black;
 }
@@ -41,3 +45,4 @@ h6 {
 p {
     font-family: 'Markazi Text', serif;
 }
+
