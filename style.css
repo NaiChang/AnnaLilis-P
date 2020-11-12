@@ -4,6 +4,10 @@ body {
   background-color: black;
 }
 
+.carousel-item {
+  height: 620px;
+}
+
 .container {
   background-color: black !important;
 }
