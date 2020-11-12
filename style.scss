@@ -10,6 +10,9 @@ body {
 }
 
 .carousel-item {
+    @media screen and (min-width: $desktop) {
+        height: 620px;    
+    }
     @media screen and (max-width: $table) {
         height: 620px;    
     }
