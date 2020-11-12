@@ -10,8 +10,12 @@ body {
 }
 
 .carousel-item {
-
-    height: 620px;
+    @media screen and (max-width: $table) {
+        height: 620px;    
+    }
+    @media screen and (max-width: $mobile) {
+        height: 230px;
+    }
 }
 
 .container {

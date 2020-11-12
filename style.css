@@ -4,8 +4,16 @@ body {
   background-color: black;
 }
 
-.carousel-item {
-  height: 620px;
+@media screen and (max-width: 1024px) {
+  .carousel-item {
+    height: 620px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .carousel-item {
+    height: 230px;
+  }
 }
 
 .container {
