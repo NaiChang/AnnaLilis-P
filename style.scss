@@ -33,6 +33,14 @@ body {
     background-color: black !important;
 }
 
+.card-img-top {
+    margin: 0 auto;
+    
+    @media screen and (max-width: $mobile) {
+        padding: 30px;
+    }
+}
+
 .card, .card-text {
     background-color: black;
 }
